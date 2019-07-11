@@ -1,11 +1,11 @@
 module.exports = {
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/themessages_dev'
+    connection: 'postgres://localhost/bands_dev'
   },
   test: {
     client: 'pg',
-    connection: 'postgres://localhost/themessages_test'
+    connection: 'postgres://localhost/bands_test'
   },
   production: {
     client: 'pg',
